@@ -1,7 +1,7 @@
 {
-  "name": "Kasir Putra Mandiri Motor",
+  "name": "Bengkel Putra Mandiri Motor",
   "short_name": "Kasir PMM",
-  "description": "Aplikasi kasir (POS) bengkel motor: sparepart, paket service, riwayat, dan cetak struk.",
+  "description": "Aplikasi kasir bengkel motor: sparepart, paket service, riwayat, dan cetak struk.",
   "lang": "id",
   "start_url": "./index.html",
   "scope": "./",
@@ -10,8 +10,23 @@
   "background_color": "#121212",
   "theme_color": "#121212",
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
