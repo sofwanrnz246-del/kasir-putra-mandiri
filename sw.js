@@ -1,8 +1,8 @@
 /* Service worker: aplikasi tetap bisa dibuka tanpa internet.
    Naikkan VERSION setiap kali file aplikasi diubah agar HP pengguna mengambil versi baru. */
-const VERSION = "pmm-v3";
+const VERSION = "pmm-v4";
 const SHELL = ["./", "index.html", "style.css", "app.js", "logo.js", "manifest.json",
-  "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png"];
+  "icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png", "favicon-64.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
